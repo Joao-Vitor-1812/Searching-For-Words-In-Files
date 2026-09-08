@@ -50,14 +50,6 @@ Each node stores a character `c` and three child pointers[cite: 1]:
 
 ---
 
-## 💻 Tech Stack
-
-- **Language:** Java
-- **Development Environment:** Visual Studio Code / Terminal
-- **Version Control:** Git & GitHub
-
----
-
 ## ⚖️ Academic Guidelines & Constraints
 
 This project adheres strictly to course specifications prohibiting high-level associative containers from the standard library (such as `HashMap`, `TreeMap`, `HashSet`, or `TreeSet`) for the primary index engine[cite: 1]. The index is built from custom node references and dynamic pointer traversal[cite: 1].
