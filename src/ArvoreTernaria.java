@@ -22,6 +22,10 @@ private No Inserir(No atual, String palavra, String NomeArquivo, int indice){
     char p = palavra.charAt(indice);
     if(p < atual.caractere){
         atual.esq = Inserir(atual.esq, palavra, NomeArquivo, indice);
+    }else if(p > atual.caractere){
+        atual.dir = Inserir(atual.dir, palavra, NomeArquivo, indice);
+    }else{
+        atual.meio = ; //TERMINAR ISSO AQUI         
     }
 }
 
