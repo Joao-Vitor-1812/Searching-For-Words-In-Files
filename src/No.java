@@ -8,7 +8,7 @@ public class No{
     public boolean fimPalavra;
     public LinkedList<String> arquivos;
 
-    public No(char caractere, No esq, No meio, No dir){
+    public No(char caractere){
         this.caractere = caractere;
         this.fimPalavra = false;
         this.arquivos = new LinkedList<>();
